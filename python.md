@@ -1441,25 +1441,3 @@ Ever wondered how this works? Python implements this using Iterables and Iterato
 > I don’t know if it helps anybody but I always like to visualize concepts in my head to better understand them. So as I have a little son I visualize iterable/iterator concept with bricks and white paper.
 >
 > Suppose we are in the dark room and on the floor we have bricks for my son. Bricks of different size, color, does not matter now. Suppose we have 5 bricks like those. Those 5 bricks can be described as an **object** – let’s say a **bricks kit**. We can do many things with this bricks kit – can take one and then take second and then third, can change places of bricks, put first brick above the second. We can do many sorts of things with those. Therefore this bricks kit is an **iterable object** or **sequence** as we can go through each brick and do something with it. We can only do it like my little son – we can play with **one** brick **at a time**. So again I imagine myself this bricks kit to be an **iterable**.
->
-> Now remember that we are in the dark room. Or almost dark. The thing is that we don’t clearly see those bricks, what color they are, what shape etc. So even if we want to do something with them – aka **iterate through them** – we don’t really know what and how because it is too dark.
->
-> What we can do is near to first brick – as element of a bricks kit – we can put a piece of white fluorescent paper in order for us to see where the first brick-element is. And each time we take a brick from a kit, we replace the white piece of paper to a next brick in order to be able to see that in the dark room. This white piece of paper is nothing more than an **iterator**. It is an **object as well**. But an object that we can use to work and play with elements of our iterable object – the bricks kit.
->
-> (https://stackoverflow.com/questions/9884132/what-exactly-are-pythons-iterator-iterable-and-iteration-protocols)
-
-
-
-
-```
-                            .     .
-                         .  |\-^-/|  .    
-                        /| } O.=.O { |\
-```
-
-​    
-
-------
-
- [![Yeah! Buy the DRAGON a COFFEE!](../_assets/COFFEE%20BUTTON%20%E3%83%BE(%C2%B0%E2%88%87%C2%B0%5E).png)](https://www.buymeacoffee.com/methylDragon)
-
